@@ -84,6 +84,7 @@ You should use flex and the cards should be centered both horizontally and verti
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 /* Edit the css for the card class to match our example.  
@@ -252,6 +253,8 @@ Do not modify the list items or the links - modify the nav_links class to use fl
   }
 }
 
+/* The logo class should appear but not be animated if
+ prefers-reduced-motion is selected in the accessibility preferences. */
 /*Your code here again.*/ 
 /*Add media query to handle reduced-motion*/
 @media (prefers-reduced-motion:reduce){
