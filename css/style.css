@@ -240,8 +240,7 @@ Do not modify the list items or the links - modify the nav_links class to use fl
   .pricing{
     display: flex;
     flex-direction: row;
-    /* justify-content: center;
-    align-items: center; */
+    align-items: flex-start;
     align-content: flex-start;
   }
   /* The gallery class and id should not be displayed.  */
